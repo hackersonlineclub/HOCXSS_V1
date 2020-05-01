@@ -7,7 +7,7 @@ git clone https://github.com/hackersonlineclub/HOCXSS_V1.git
 
 cd HOCXSS_V1
 
-python3 hocig.py
+python3 hocxss.py
 
 # Version
 1.2
