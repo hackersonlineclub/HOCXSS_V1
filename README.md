@@ -1,11 +1,11 @@
 # HOCXSS_V1
-HOCXSS (Cross Site Scripting)
+HOCXSS (Cross Site Scripting) Autmatic Tool
 
-# What is Xss?
+# What is XSS?
 ‘XSS’ is also known as ‘CSS’ – Cross Site Scripting.
-It is a very common vulnerability found in Web Applications, Cross Site Scripting (XSS) allows the attacker to INSERT malicious code, There are many types of XSS attacks, I will mention 3 of the most used. This kind of vulnerability allows an “attacker” to inject some code into the applications affected in order to bypass access to the website or to apply “phishing” on falls users.
+Cross-site scripting is a type of security vulnerability typically found in web applications. XSS attacks enable attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy.
 
-This technique is also used for website Hacking.
+
 Types of XSS:
 
 There are actually three types of Cross-Site Scripting, commonly named as:
