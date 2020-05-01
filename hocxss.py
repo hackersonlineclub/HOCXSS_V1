@@ -21,7 +21,7 @@ try:
     from bs4 import BeautifulSoup as bs
 except ImportError:
     print ('BeautifulSoup isn\'t installed, installing now.')
-    os.system('pip install BeautifulSoup')
+    os.system('pip3 install beautifulsoup4 --upgrade')
 try:
     os.system('sudo service tor start')
 except ImportError:
@@ -232,7 +232,7 @@ def XSSENTRURLPAYLOAD(TOR, OPTION):
 		print(str(e))
 		sys.exit(1)
 	try:	
-		PL.inforI(" Please wait Getting responce form website....")
+		PL.inforI(" Please wait getting response from website....")
 		r=ses.get(weburl)
 		#body=r.text
 		PL.inforI(" Establish a new connection status code:- "+ str(r.status_code))
@@ -256,7 +256,6 @@ def XSSENTRURLPAYLOAD(TOR, OPTION):
 	P = input(" Want to use own payload Y/N :-  ")
 	if(P == 'y' or P =='y'):
 		PL.inforI(' Example :- /root/payloads.txt')
-		#PayloadFile = '/root/payloads.txt'
 		PayloadFile = input("Payload file location :- ")
 	else:
 		os.system('wget https://raw.githubusercontent.com/hackersonlineclub/HOC_PAYLOAD/master/payloads.txt -O /tmp/payloads')
@@ -340,7 +339,7 @@ def XSS02():
 def XSSMENU():
 	os. system('clear')
 	intro()
-	PL.inforI(' 1. USE HOCXSS WITH OUT TOR')
+	PL.inforI(' 1. USE HOCXSS WITHOUT TOR')
 	PL.inforI(' 2. USE HOCXSS WITH TOR')
 	PL.inforI(exit)	
 	print('\n')
