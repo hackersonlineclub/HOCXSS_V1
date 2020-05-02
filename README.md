@@ -28,9 +28,9 @@ python3 hocxss.py
 
 HOCXSS our first ever tool on GitHub, please give your feedback. Currently, we are working on its 2nd version, where you will get more features.
 
-Note:
+# Note:
 
-If you get any error please do not hesitate to send an email on info@hackersonlineclub.com and Keep Subject "HOC Tool" info.
+The tool is under developing mode. If you will get any error please do not hesitate to send an email on info@hackersonlineclub.com and Keep Subject "HOC Tool" info.
 
 Thanks :)
 
