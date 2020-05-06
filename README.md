@@ -14,6 +14,18 @@ There are actually three types of Cross-Site Scripting, commonly named as:
     Non-persistent XSS
     Persistent XSS
     
+# Features:
+
+Persistence, Non-persistence and Dom based scanning
+It can scan target anonymously using TOR
+Multi-threaded crawling
+WAF detection & evasion
+HOC updated payload
+WAF BYPASS payloads
+Complete HTTP support
+Brute force payloads from a file
+Auto-detect method GET/POST
+Set cookie
 
 # How To Install
 
