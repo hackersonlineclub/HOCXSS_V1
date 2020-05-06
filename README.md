@@ -1,5 +1,7 @@
 # HOCXSS_V1
-HOCXSS (Cross Site Scripting) Autmatic Tool
+HOCXSS Automatic Cross Site Scripting XSS Vulnerability Scanning Tool
+
+HOCXSS is an easy way for penetration tester and bug bounty hunters to test Cross site scripting vulnerability. It can do crawling, detection parameter discovery, WAF detection capabilities as well.
 
 # What is XSS?
 ‘XSS’ is also known as ‘CSS’ – Cross Site Scripting.
@@ -16,16 +18,17 @@ There are actually three types of Cross-Site Scripting, commonly named as:
     
 # Features:
 
-Persistence, Non-persistence and Dom based scanning
-It can scan target anonymously using TOR
-Multi-threaded crawling
-WAF detection & evasion
-HOC updated payload
-WAF BYPASS payloads
-Complete HTTP support
-Brute force payloads from a file
-Auto-detect method GET/POST
-Set cookie
+    Persistence, Non-persistence and Dom based scanning
+    It can scan target anonymously using TOR
+    Multi-threaded crawling
+    WAF detection & evasion
+    HOC updated payload
+    WAF BYPASS payloads
+    Complete HTTP support
+    Brute force payloads from a file
+    Auto-detect method GET/POST
+    Set cookie
+
 
 # How To Install
 
@@ -38,7 +41,10 @@ python3 hocxss.py
 # Version
 1.0
 
-HOCXSS our first ever tool on GitHub, please give your feedback. Currently, we are working on its 2nd version, where you will get more features.
+HOCXSS is an automatic XSS scanning tool, 
+This tool wouldn’t require you to install any Library. It automatically detects, install and run the required files for you.
+
+Currently, we are working on its 2nd version, where you will get more features.
 
 # Note:
 
